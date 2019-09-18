@@ -2,3 +2,25 @@
 wordConfig:
   preamble: The lucky word is
   luckyWord: Irish
+
+kafka:
+    tcb:
+        address: 192.168.40.21:9092
+        topic:
+            name: tcb-topic
+        group:
+            id: tcb-import
+
+# logging
+logging:
+    pattern:
+        console: %d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n
+    level:
+        org:
+            springframework:
+                web: INFO
+            hibernate: ERROR
+        guru:
+            springframework:
+                blogs:
+                    controllers: INFO
