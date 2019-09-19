@@ -20,3 +20,13 @@ logging:
             springframework:
                 blogs:
                     controllers: INFO
+
+spring:
+  cloud:
+    bus:
+      enabled: true
+    stream:
+      kafka:
+        binder:
+          zkNodes: localhost:9092,127.0.0.1:9092
+          brokers: localhost:2181,127.0.01:2181
