@@ -24,7 +24,7 @@ logging:
 spring:
   cloud:
     bus:
-        enabled: true
+      enabled: true
     stream:
       kafka:
         binder:
