@@ -27,5 +27,5 @@ spring:
     stream:
       kafka:
         binder:
-          zkNodes: ENC(wXu1iS6zFx/llB2MhcWyxt5q5uON5sKwJWKqk0zXAOE=)
-          brokers: ENC(j0Rhl6Zjfra+tu4hFgFR0SJzieU2v6nN4QzzM4KftKU=)
+          zkNodes: ENC(PkX+MFgatA2KSkMYr4opk8jxyhdp5RdN+sTiLJRRA8U=)
+          brokers: ENC(JKBiv/KzYZ417JGsu9S5TTDwon/NHIXyKdNlDm2fbXI=)
