@@ -20,13 +20,12 @@ logging:
             springframework:
                 blogs:
                     controllers: INFO
-
 spring:
   cloud:
     bus:
-      enabled: true
+        enabled: true
     stream:
       kafka:
         binder:
-          zkNodes: localhost:9092,127.0.0.1:9092
-          brokers: localhost:2181,127.0.01:2181
+          zkNodes: ENC(wXu1iS6zFx/llB2MhcWyxt5q5uON5sKwJWKqk0zXAOE=)
+          brokers: ENC(j0Rhl6Zjfra+tu4hFgFR0SJzieU2v6nN4QzzM4KftKU=)
