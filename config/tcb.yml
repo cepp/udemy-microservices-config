@@ -21,6 +21,10 @@ logging:
                 blogs:
                     controllers: INFO
 
-test:
-    novo:
-        bus: teste
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          zkNodes: ENC(wXu1iS6zFx/llB2MhcWyxt5q5uON5sKwJWKqk0zXAOE=)
+          brokers: ENC(j0Rhl6Zjfra+tu4hFgFR0SJzieU2v6nN4QzzM4KftKU=)
